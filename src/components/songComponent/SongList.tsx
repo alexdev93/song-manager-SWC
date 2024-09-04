@@ -113,7 +113,7 @@ const SongList: React.FC = () => {
 
   // Filter songs by genre
   const filteredSongs = genreFilter
-    ? songs.filter((song: any) => song.genre === genreFilter)
+    ? songs.filter((song) => song.genre === genreFilter)
     : songs;
 
   const columns: GridColDef[] = [
